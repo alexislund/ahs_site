@@ -1,0 +1,67 @@
+<!doctype html>
+
+<head>
+	<meta charset="UT-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Animal Humaine Society</title>
+	<link type="text/css" rel="stylesheet" href="style.css">
+
+	<script type="text/javascript">
+   $(function(){
+      var navButton = document.querySelector('.nav-icon');
+	navButton.addEventListener('click', function () {
+	console.log('clicky!!!');
+	document
+	.querySelector('body')
+	.classlist
+	.toggle('nav-open');
+});
+	var closeButton = document.querySelector('close-icon');
+	closeButton.addEventListener('click', function () {
+		console.log('close it');
+		document
+	.querySelector('body')
+	.classlist
+	.toggle('nav-open');
+	});
+</script>
+</head>
+
+<body>
+	<nav class="main-nav">
+		<i>&#215;</i>
+		<ul>
+			<li><a href="#!">Home</a></li>
+			<li><a href="#!">Contact</a></li>
+			<li><a href="#!">Animals</a></li>
+		</ul>
+	</nav>
+
+	<div class="page-content">
+		<header class="page-header">
+			<img src="images/icon.png" class="nav-icon"></i>
+			<h1>Animal Humaine Society</h1>
+		</header>
+		<main class="main-content">
+			<a href="featured.html"><p>Back to Featured Animals</p></a>
+			<article>
+				<img src="images/bunny.jpg" alt="Dougie the Bunny">
+				<h2>Dougie</h2>
+				<ul>
+					<li>Mini Rex / Rabbit</li>
+					<li>Neutered Male</li>
+					<li>4 years old</li>
+					<li>5 pounds</li>
+					<li>ID #: 31253658</li>
+					<li>Adoption Fee: $ 51.00</li>
+					<li>Location: <a href="locations.html">Golden Valley</a></li>
+				</ul>
+				<p>Hi! My name is Dougie.
+				I was in a shelter that lacked the resources to continue to care for me, so I came to Animal Humane Society to find a new home.</p>
+
+				<h3>Additional Information</h3>
+				<p>I am a Shy Snuggler! Shy Snugglers are relaxed, gentle and a little bit timid. They adapt fairly quickly to new environments, people and changes in routine, but can be overwhelmed by too much noise or activity. They are affectionate and enjoy human interaction, but also need time alone. They are rarely mischievous and often live harmoniously with other pets. They prefer a calm, quiet home and are a great choice for first-time adopters and homes with gentle children of all ages. They are not the best candidate for agility class or the role of therapy animal, but may enjoy these roles over time.<p>
+			</article>
+		</main>
+	</div>
+</html>

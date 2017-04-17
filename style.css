@@ -1,0 +1,65 @@
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+body {
+	line-height: 1.4;
+	font-family: sans-serif;
+}
+img {
+	max-width: 100%;
+	display: block;
+}
+
+/* main-nav*/
+
+.main-nav {
+	display: none;
+}
+/*Page Header*/
+
+.page-header {
+	background-color: #0285ae;
+	color: white;
+	padding: 1em;
+	position: relative;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+.page-header h1 {
+	line-height: 1;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0;
+}
+.page-header .nav-icon{
+	position: absolute;
+	width: 30px;
+	left: 1em;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 200;
+	cursor: pointer;
+}
+
+/* main content*/
+
+.main-content {
+	margin: 0px auto 0px auto;
+	max-width: 960px;
+	padding: 2em;
+}
+margin-top: 25px;
+
+article p {
+	font-size: .5em;
+}
+ 
+
+
